@@ -1,0 +1,10 @@
+{
+    "esversion": 6,
+    "maxdepth": 3,
+    "emitErrors": true,
+    "failOnHint": true,
+    "asi": true,
+    "varstmt": true,
+    "freeze": true,
+    "curly": true
+}

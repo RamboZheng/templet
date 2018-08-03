@@ -1,0 +1,8 @@
+{
+    "presets": ["env", "stage-3"],
+    "plugins": [
+        ["import", { "libraryName": "icity", "libraryDirectory": "src/core" }],
+        ["import", { "libraryName": "icity-mui2", "libraryDirectory": "src/plugin" }],
+        [ "transform-runtime", { "helpers": false, "polyfill": false, "regenerator": true, "moduleName": "babel-runtime" }]
+    ]
+}

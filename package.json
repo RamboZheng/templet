@@ -1,0 +1,51 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "author": "",
+  "description": "project template",
+  "main": "index.js",
+  "scripts": {
+    "common": "git clone https://github.com/RamboZheng/common.git ./node_modules/common",
+    "co-icity-mui2": "git clone https://github.com/RamboZheng/common-mui.git ./node_modules/common-mui",
+    "build": "set NODE_DEV=0 && webpack --progress",
+    "server": "set NODE_DEV=1 && webpack-dev-server --port 9090 --content-base ./ --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://10.110.9.229/dashboard/groups"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-import": "^1.6.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
+    "less-loader": "^4.1.0",
+    "n-zepto": "^1.2.0",
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.18.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "vue": "^2.4.2",
+    "vue-loader": "^13.0.2",
+    "vue-navigation": "^1.1.3",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.4.2",
+    "vuex": "^3.0.1",
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
